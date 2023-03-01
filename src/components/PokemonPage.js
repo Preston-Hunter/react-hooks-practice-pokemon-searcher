@@ -11,7 +11,7 @@ function PokemonPage() {
     <Container>
       <h1>Pokemon Searcher</h1>
       <br />
-      <PokemonForm />
+      <PokemonForm pokeList={pokeList} setPokeList={setPokeList}/>
       <br />
       <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       <br />
